@@ -1,0 +1,12 @@
+15:37:05.194 INFO  - Info level log
+15:37:05.197 WARN  - Warn level log
+15:37:05.197 ERROR - Error level log
+15:37:05.198 FATAL - Fatal level log
+15:37:26.870 INFO  - Info level log
+15:37:26.874 WARN  - Warn level log
+15:37:26.874 ERROR - Error level log
+15:37:26.874 FATAL - Fatal level log
+15:37:37.674 INFO  - Info level log
+15:37:37.677 WARN  - Warn level log
+15:37:37.677 ERROR - Error level log
+15:37:37.677 FATAL - Fatal level log
