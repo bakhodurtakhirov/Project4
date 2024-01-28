@@ -42,7 +42,7 @@ public class DriverClass {
 
         driver.get("https://openmrs.org/");
 
-        wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        wait = new WebDriverWait(driver, Duration.ofSeconds(20));
         actions = new Actions(driver);
 
 

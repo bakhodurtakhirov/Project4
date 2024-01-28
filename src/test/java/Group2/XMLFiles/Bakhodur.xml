@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <groups>
+        <run>
+            <include name="Smoke"></include>
+        </run>
+    </groups>
+    <test name="C:/Users/takhi/OneDrive/Desktop/SDET/IntelliJ Projects/Project4/src/test/java/Group2">
+        <parameter name="username" value="admin"></parameter>
+        <parameter name="password" value="Admin123"></parameter>
+        <classes>
+            <class name="Group2.US_404_Bakhodur"></class>
+            <class name="Group2.US_405_Bakhodur"></class>
+            <class name="Group2.US_407_Bakhodur">
+                <methods>
+                    <exclude name="US_402_Login"></exclude>
+                    <exclude name="US_404_Patient_Registration"></exclude>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
