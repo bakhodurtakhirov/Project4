@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <groups>
+        <run>
+            <include name="Smoke"></include>
+        </run>
+    </groups>
+    <test name="Meliks Code">
+        <parameter name="username" value="admin"></parameter>
+        <parameter name="password" value="Admin123"></parameter>
+        <classes>
+            <class name="Group2.US_401_Melik"></class>
+            <class name="Group2.US_402_Melik"></class>
+            <class name="Group2.US_403_Melik"></class>
+        </classes>
+    </test>
+</suite>
