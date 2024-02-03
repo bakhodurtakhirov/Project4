@@ -16,7 +16,7 @@ public class US_401_Melik extends DriverClass {
         driver.get("https://openmrs.org/");
         driver.findElement(By.cssSelector("a[class=\"zak-button\"]")).click();
         driver.findElement(By.xpath("//span[text()=\"Explore OpenMRS 2\"]")).click();
-        wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//span[text()=\"Enter the OpenMRS 2 Demo\"]"))).click();
+        wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[text()=\"Enter the OpenMRS 2 Demo\"]"))).click();
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("username"))).sendKeys("admin");
         driver.findElement(By.name("password")).sendKeys("admin12345");
         driver.findElement(By.id("loginButton")).click();
